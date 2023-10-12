@@ -38,13 +38,11 @@ async function main() {
     result
     `);
     resultCode(codePython);
-    console.log(typeof codePython);
     return pyodide;
 }
 
 
 const runBtn = async () => {
-    console.log(window.editor.getValue());
     let pyodide = await window.pyodideReadyPromise;
     try {
         pyodide.runPython(`
@@ -52,7 +50,6 @@ const runBtn = async () => {
         sys.stdout = io.StringIO()
         `);
         pyodide.runPython(window.editor.getValue());
-        console.log(pyodide.runPython("sys.stdout.getvalue()"));
         resultCode(pyodide.runPython("sys.stdout.getvalue()"));
     } catch (err) {
         resultCode(err);
@@ -486,7 +483,7 @@ const App = () => {
         }),
         div({
             id: "output",
-            class: "h-96 m-4 lg:h-screen mx-4 font-mono bg-base-200 px-4 rounded-2xl",
+            class: "h-96 m-4 lg:h-screen mx-4 font-mono bg-base-200 px-4 rounded-2xl overflow-scroll",
             style: "white-space: pre-line;"
         })
     ))
