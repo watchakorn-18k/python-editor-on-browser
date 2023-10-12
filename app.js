@@ -446,7 +446,7 @@ const {
 
 const Footer = () => {
     return footer({
-            class: "footer items-center p-4 bg-neutral text-neutral-content"
+            class: "footer items-center p-4 bg-neutral text-neutral-content flex justify-between"
         }, aside({
             class: "items-center grid-flow-col"
         }, i({
@@ -462,7 +462,7 @@ const Footer = () => {
             href: "http://github.com/watchakorn-18k",
             target: "_blank",
             rel: "noopener noreferrer"
-        }))
+        },i({class:"ti ti-brand-github text-3xl"})))
 
     )
 }
