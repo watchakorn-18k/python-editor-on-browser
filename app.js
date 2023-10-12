@@ -49,6 +49,7 @@ const runBtn = async () => {
         import io
         sys.stdout = io.StringIO()
         `);
+        pyodide.setStdin({stdin: () => prompt("กรอกข้อความจากไปยัง input()")});
         pyodide.runPython(window.editor.getValue());
         resultCode(pyodide.runPython("sys.stdout.getvalue()"));
     } catch (err) {
