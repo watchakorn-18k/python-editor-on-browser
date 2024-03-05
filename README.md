@@ -13,6 +13,6 @@
 
 # Try it!
 #### [Click the button below to run the code in your browser!](https://watchakorn-18k.github.io/python-editor-on-browser/)
-![im](https://media.discordapp.net/attachments/372372440334073859/1161951628119781499/gamedfdsf.gif?ex=653a2ac8&is=6527b5c8&hm=fea6631035413e959e48c4f1926b00bc667ea9ff6b85a73d4e1bb2384b9f4e20&=&width=365&height=671)
+![im](https://media.discordapp.net/attachments/581018943041306641/1214619714228326420/image.png?ex=65f9c5c2&is=65e750c2&hm=8f87303b963670cc1577f1aca36f8e726db67aa2a8a251e156aa4bcbf4854a86&=&format=webp&quality=lossless&width=1348&height=670)
 
 </div>
