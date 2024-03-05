@@ -1,14 +1,6 @@
 # Python Edit On Web | Monaco Editor | Pyodide
 
 
-```
- app.js
- app.py
- index.html
- README.md
- stackframe.js
-```
-
 <div align="center">
 
 # Try it!
