@@ -552,7 +552,7 @@ const App = () => {
     {
       class: "flex flex-col m-2",
     },
-    button(
+    div(
       {
         id: "run",
         class: "mx-6 my-2 btn btn-success",
